@@ -3,20 +3,26 @@ window.document.onload = function(e){
     console.log(spawnPlayer(200, 200));
 }
 
-document.addEventListener('', handleOnLoad);
+document.addEventListener('didload', handleOnLoad);
 
-//document.addEventListener('click', handleOnClick);
+document.addEventListener('click', handleOnClick);
 
-// canvas.addEventListener('mouseover', mouseOver);
 
 // function mouseOver(e){
-//     console.log(e)
-// }
-
-function handleOnLoad(){
-    console.log("dadaokd")
-}
-
+    //     console.log(e)
+    // }
+    
+    function handleOnLoad(){
+        console.log("dadaokd")
+    }
+    
+//document.addEventListener('mousemove', handleOnClick);
+// canvas.addEventListener('mouseover', mouseOver);
 function handleOnClick(e){
-    spawnParticle(e.clientX, e.clientY)
+    const x = e.clientX;
+    const y = e.clientY;
+
+    
 }
+
+setUp();

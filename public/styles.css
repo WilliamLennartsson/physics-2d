@@ -1,6 +1,7 @@
 body {
     display: flex;
-    flex: 1
+    flex: 1;
+    background-color: #f0ece2;
 }
 
 #screen {
